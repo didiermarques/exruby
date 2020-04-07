@@ -9,3 +9,5 @@ number.times do
     puts number
   end
 end 
+
+puts "Ahah ! Blague. Oui je sais aussi faire des blagues. Intelligent hein?"

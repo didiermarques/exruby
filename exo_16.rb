@@ -5,8 +5,11 @@ age.times do |y|
   if age == 1
     puts "Il y a #{age} an, tu avais #{y} ans."
     age = age - 1
-  elsif y == 1 || y == 0
+  elsif y == 1
     puts "Il y a #{age} ans, tu avais #{y} an."
+    age = age - 1
+  elsif y == 0
+    puts "Il y a #{age} ans, tu venais d'être né."
     age = age - 1
   else
     puts "Il y a #{age} ans, tu avais #{y} ans."
